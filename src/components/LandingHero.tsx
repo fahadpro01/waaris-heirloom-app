@@ -36,7 +36,7 @@ export const LandingHero: React.FC = () => {
           </h1>
 
           <p className="text-base text-stone-700 leading-relaxed font-semibold">
-            Discover bank savings, FDs, LIC policies, and mutual funds by phone number, like Jupiter or Fi Money.
+            Universal family financial security protocol for all age groups. Discover bank savings, FDs, LIC policies, EPF, and mutual funds by phone number.
           </p>
         </div>
 

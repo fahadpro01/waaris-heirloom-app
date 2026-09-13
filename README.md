@@ -1,19 +1,19 @@
-# 📜 Waaris (वारिस) - Senior-Accessible Family Financial Security & Asset Recovery Protocol
+# 📜 Waaris (वारिस) - Universal Family Financial Security & Asset Recovery Protocol (All Age Groups)
 
-[![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel)](https://temporary-racing-perseus-tnptxr1.vercel.app)
+[![Vercel Deployment](https://img.shields.io/badge/Deployment-Vercel-000000?style=for-the-badge&logo=vercel)](https://temporary-fleet-carbon-4mwqziz.vercel.app)
 [![React](https://img.shields.io/badge/React-18.3-61DAFB?style=for-the-badge&logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.5-3178C6?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
 [![WebGPU AI](https://img.shields.io/badge/AI-On--Device_WebGPU-059669?style=for-the-badge)](https://webgpu.io)
 [![DigiLocker](https://img.shields.io/badge/Integration-MeitY_DigiLocker-0284C7?style=for-the-badge)](https://digilocker.gov.in)
 
-> **Waaris (वारis)** is a senior-accessible family financial security map and automated asset recovery protocol. It helps senior citizens (50+ age group) record, verify, and auto-discover accounts, FDs, LIC policies, and EPF balances, ensuring that bereaved families can claim lost savings without expensive legal aid or password dependencies.
+> **Waaris (वारिस)** is a universal family financial security map and automated asset recovery protocol designed for individuals and families across all age groups. It helps users record, verify, and auto-discover accounts, FDs, LIC policies, EPF, and mutual fund holdings, ensuring that family members can effortlessly claim financial assets without password dependencies or expensive legal aid.
 
 ---
 
 ## 🚀 Live Demo & Presentation
 
-- 🌐 **Live Web Application**: [https://temporary-racing-perseus-tnptxr1.vercel.app](https://temporary-racing-perseus-tnptxr1.vercel.app)
+- 🌐 **Live Web Application**: [https://temporary-fleet-carbon-4mwqziz.vercel.app](https://temporary-fleet-carbon-4mwqziz.vercel.app)
 - 📊 **PowerPoint Presentation (.PPTX)**: Included directly in the repo at [`Waaris_Pitch_Deck.pptx`](./Waaris_Pitch_Deck.pptx) or via the **Pitch Deck (PPT)** button in the live app navbar.
 - 💻 **GitHub Repository**: [https://github.com/fahadpro01/waaris-heirloom-app](https://github.com/fahadpro01/waaris-heirloom-app)
 

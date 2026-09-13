@@ -11,7 +11,7 @@ export const PitchDeckModal: React.FC = () => {
       id: 1,
       tag: "OVERVIEW",
       title: "WARIS (वारिस)",
-      subtitle: "Senior-Accessible Family Financial Security & Asset Recovery Protocol",
+      subtitle: "Universal Family Financial Security & Asset Recovery Protocol (All Age Groups)",
       bg: "bg-emerald-950 text-white",
       content: (
         <div className="space-y-6 text-center max-w-xl mx-auto py-4">
