@@ -143,7 +143,7 @@ export const PitchDeckModal: React.FC = () => {
               <span className="text-xs font-extrabold text-emerald-700 uppercase">Auth & Data Isolation</span>
               <span className="text-xs font-mono font-bold bg-blue-100 text-blue-900 px-2 py-0.5 rounded-lg">Per-Phone Storage Encryption</span>
             </div>
-            <p className="text-xs text-stone-600 font-semibold">Phone OTP verification isolates user asset vaults under strict localStorage keys (`waaris_assets_${phone}`).</p>
+            <p className="text-xs text-stone-600 font-semibold">Phone OTP verification isolates user asset vaults under strict localStorage keys ('waaris_assets_phone').</p>
           </div>
         </div>
       )
