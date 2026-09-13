@@ -16,8 +16,6 @@
 
 - 🌐 **Live Web Application**: [https://temporary-fleet-carbon-4mwqziz.vercel.app](https://temporary-fleet-carbon-4mwqziz.vercel.app)
 - 📦 **GitHub Repository**: [https://github.com/fahadpro01/waaris-heirloom-app](https://github.com/fahadpro01/waaris-heirloom-app)
-- 📊 **Native PowerPoint Deck (.PPTX)**: Included in repository at [`Waaris_Pitch_Deck.pptx`](./Waaris_Pitch_Deck.pptx) or via the **Pitch Deck (PPT)** button in the live app navbar.
-- 🌐 **Interactive Standalone HTML Slide Deck**: [`public/Waaris_Pitch_Deck.html`](./public/Waaris_Pitch_Deck.html)
 
 ---
 
