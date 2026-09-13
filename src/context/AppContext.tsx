@@ -38,6 +38,8 @@ interface AppContextType {
   setShowVoiceAssistantModal: (show: boolean) => void;
   showVoiceSecurityModal: boolean;
   setShowVoiceSecurityModal: (show: boolean) => void;
+  showPitchDeckModal: boolean;
+  setShowPitchDeckModal: (show: boolean) => void;
   selectedAssetForLetter: AssetItem | null;
   setSelectedAssetForLetter: (asset: AssetItem | null) => void;
   
@@ -83,6 +85,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   const [showDownloadAppModal, setShowDownloadAppModal] = useState<boolean>(false);
   const [showVoiceAssistantModal, setShowVoiceAssistantModal] = useState<boolean>(false);
   const [showVoiceSecurityModal, setShowVoiceSecurityModal] = useState<boolean>(false);
+  const [showPitchDeckModal, setShowPitchDeckModal] = useState<boolean>(false);
   const [showDigiLockerModal, setShowDigiLockerModal] = useState<boolean>(false);
   const [selectedAssetForLetter, setSelectedAssetForLetter] = useState<AssetItem | null>(null);
 
@@ -245,6 +248,8 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
         setShowVoiceAssistantModal,
         showVoiceSecurityModal: showVoiceAssistantModal,
         setShowVoiceSecurityModal: setShowVoiceAssistantModal,
+        showPitchDeckModal,
+        setShowPitchDeckModal,
         selectedAssetForLetter,
         setSelectedAssetForLetter,
         isDigiLockerConnected,

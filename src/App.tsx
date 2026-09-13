@@ -16,6 +16,7 @@ import { InstallAppBanner } from './components/InstallAppBanner';
 import { AITutorialModal } from './components/AITutorialModal';
 import { DownloadAppModal } from './components/DownloadAppModal';
 import { VoiceAssistantModal } from './components/VoiceAssistantModal';
+import { PitchDeckModal } from './components/PitchDeckModal';
 
 const AppContent: React.FC = () => {
   const { isAuthenticated, activeTab } = useApp();
@@ -29,6 +30,7 @@ const AppContent: React.FC = () => {
         <AITutorialModal />
         <DownloadAppModal />
         <VoiceAssistantModal />
+        <PitchDeckModal />
       </>
     );
   }
@@ -51,6 +53,7 @@ const AppContent: React.FC = () => {
       <AITutorialModal />
       <DownloadAppModal />
       <VoiceAssistantModal />
+      <PitchDeckModal />
       <InstallAppBanner />
     </div>
   );

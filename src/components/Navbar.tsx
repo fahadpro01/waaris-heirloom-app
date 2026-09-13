@@ -1,8 +1,8 @@
-import { Shield, FileText, HeartHandshake, Home, Bot, CheckCircle, Landmark, LogOut, Smartphone, Sparkles, Download, RotateCcw, Mic } from 'lucide-react';
+import { Shield, FileText, HeartHandshake, Home, Bot, CheckCircle, Landmark, LogOut, Smartphone, Sparkles, Download, RotateCcw, Mic, Presentation } from 'lucide-react';
 import { useApp } from '../context/AppContext';
 
 export const Navbar: React.FC = () => {
-  const { activeTab, setActiveTab, setShowDigiLockerModal, setShowAITutorialModal, setShowDownloadAppModal, setShowVoiceSecurityModal, isDigiLockerConnected, userPhone, logout, resetApp } = useApp();
+  const { activeTab, setActiveTab, setShowDigiLockerModal, setShowAITutorialModal, setShowDownloadAppModal, setShowVoiceSecurityModal, setShowPitchDeckModal, isDigiLockerConnected, userPhone, logout, resetApp } = useApp();
 
   return (
     <>
@@ -67,7 +67,16 @@ export const Navbar: React.FC = () => {
           </nav>
 
           {/* Ultra-Clean Right Side Controls */}
-          <div className="flex items-center gap-1 rounded-full border border-stone-200 bg-stone-50 p-1">
+          <div className="flex items-center gap-1.5 rounded-full border border-stone-200 bg-stone-50 p-1">
+            <button
+              onClick={() => setShowPitchDeckModal(true)}
+              title="Pitch Deck (PPT)"
+              className="flex items-center gap-1 rounded-full bg-emerald-100 px-2.5 py-1 text-xs font-extrabold text-emerald-800 hover:bg-emerald-200 transition"
+            >
+              <Presentation className="h-4 w-4" />
+              <span className="hidden sm:inline">Pitch Deck (PPT)</span>
+            </button>
+
             <button
               onClick={resetApp}
               title="Reset App to initial setup screen"
