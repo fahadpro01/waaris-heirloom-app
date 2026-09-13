@@ -154,6 +154,53 @@ export const LandingHero: React.FC = () => {
 
         </div>
 
+        {/* 📊 Official Regulatory Unclaimed Assets Pool (2026 Data) */}
+        <div className="rounded-3xl border-2 border-stone-200 bg-white p-6 sm:p-8 space-y-4 shadow-sm">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-stone-200 pb-3">
+            <div>
+              <span className="text-xs font-extrabold uppercase tracking-wider text-stone-500">Official Regulatory Data (2026)</span>
+              <h3 className="text-lg sm:text-xl font-extrabold text-stone-900">
+                ₹1.5 Lakh to ₹2 Lakh Crore Unclaimed Across Indian Custodians
+              </h3>
+            </div>
+            <span className="text-xs font-extrabold bg-amber-100 text-amber-900 px-3 py-1 rounded-full border border-amber-300 w-fit">
+              SEBI, RBI, EPFO & IRDAI
+            </span>
+          </div>
+
+          <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 pt-1">
+            <div className="rounded-2xl bg-emerald-50 p-3 border border-emerald-200 space-y-1">
+              <span className="text-xs font-extrabold text-emerald-900 block">Bank FDs & Savings</span>
+              <span className="text-base sm:text-lg font-extrabold text-emerald-700">₹60,518 Cr</span>
+              <span className="text-[10px] font-bold text-stone-500 block">RBI DEA Fund</span>
+            </div>
+
+            <div className="rounded-2xl bg-amber-50 p-3 border border-amber-200 space-y-1">
+              <span className="text-xs font-extrabold text-amber-900 block">Provident Fund (EPF)</span>
+              <span className="text-base sm:text-lg font-extrabold text-amber-700">₹27k-80k Cr</span>
+              <span className="text-[10px] font-bold text-stone-500 block">EPFO Inactive Status</span>
+            </div>
+
+            <div className="rounded-2xl bg-blue-50 p-3 border border-blue-200 space-y-1">
+              <span className="text-xs font-extrabold text-blue-900 block">Shares & Dividends</span>
+              <span className="text-base sm:text-lg font-extrabold text-blue-700">₹25k-65k Cr</span>
+              <span className="text-[10px] font-bold text-stone-500 block">IEPF Fund Pool</span>
+            </div>
+
+            <div className="rounded-2xl bg-rose-50 p-3 border border-rose-200 space-y-1">
+              <span className="text-xs font-extrabold text-rose-900 block">Life Insurance</span>
+              <span className="text-base sm:text-lg font-extrabold text-rose-700">₹8,973 Cr</span>
+              <span className="text-[10px] font-bold text-stone-500 block">IRDAI / Insurers</span>
+            </div>
+
+            <div className="col-span-2 sm:col-span-1 rounded-2xl bg-purple-50 p-3 border border-purple-200 space-y-1">
+              <span className="text-xs font-extrabold text-purple-900 block">Mutual Funds</span>
+              <span className="text-base sm:text-lg font-extrabold text-purple-700">₹3,811 Cr</span>
+              <span className="text-[10px] font-bold text-stone-500 block">SEBI FY26 Data</span>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <PhoneDiscoveryModal isOpen={showPhoneDiscovery} onClose={() => setShowPhoneDiscovery(false)} />
