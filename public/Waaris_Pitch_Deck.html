@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waaris Pitch Deck Presentation</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap');
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    h1, h2, h3, h4 { font-family: 'Outfit', sans-serif; }
+    .slide { display: none; }
+    .slide.active { display: flex; }
+  </style>
+</head>
+<body class="bg-stone-950 text-stone-100 min-h-screen flex items-center justify-center p-4">
+
+  <div class="relative w-full max-w-5xl h-[85vh] max-h-[720px] bg-stone-900 rounded-3xl border-2 border-emerald-500/40 shadow-2xl overflow-hidden flex flex-col justify-between">
+    
+    <!-- Top Header -->
+    <div class="flex items-center justify-between px-6 py-3 border-b border-stone-800 bg-stone-950/80">
+      <div class="flex items-center gap-2">
+        <div class="h-8 w-8 rounded-xl bg-emerald-600 flex items-center justify-center font-extrabold text-white text-sm">🛡️</div>
+        <span class="font-extrabold text-lg tracking-tight text-white">Waaris (वारिस) Pitch Deck</span>
+      </div>
+      <div className="text-xs font-bold text-emerald-400" id="slide-num">Slide 1 of 6</div>
+    </div>
+
+    <!-- Slide Canvas -->
+    <div id="slides-container" class="flex-1 p-8 sm:p-12 overflow-y-auto">
+      
+      <!-- Slide 1 -->
+      <div class="slide active flex-col justify-center items-center text-center space-y-6 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/60 border border-emerald-500 text-emerald-300 text-xs font-extrabold">
+          OVERVIEW & VISION
+        </div>
+        <h1 class="text-4xl sm:text-6xl font-extrabold text-white leading-tight">
+          WARIS <span class="text-emerald-400">(वारिस)</span>
+        </h1>
+        <p class="text-lg sm:text-2xl text-emerald-200 font-semibold max-w-2xl">
+          Senior-Accessible Family Financial Security & Asset Recovery Protocol
+        </p>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-3xl pt-4">
+          <div class="bg-stone-800/80 border border-stone-700 p-4 rounded-2xl">
+            <div class="text-2xl font-extrabold text-amber-400">₹1.5L Cr+</div>
+            <div class="text-xs text-stone-300 font-bold mt-1">Unclaimed Indian Assets</div>
+          </div>
+          <div class="bg-stone-800/80 border border-stone-700 p-4 rounded-2xl">
+            <div class="text-2xl font-extrabold text-emerald-400">100% Privacy</div>
+            <div class="text-xs text-stone-300 font-bold mt-1">On-Device WebGPU AI</div>
+          </div>
+          <div class="bg-stone-800/80 border border-stone-700 p-4 rounded-2xl">
+            <div class="text-2xl font-extrabold text-amber-400">50+ Senior UX</div>
+            <div class="text-xs text-stone-300 font-bold mt-1">Zero Dark Mode</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide flex-col justify-center space-y-6 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-900/60 border border-amber-500 text-amber-300 text-xs font-extrabold">
+          THE PROBLEM
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+          ₹1.5 Lakh Crore ($18B+) Lost Generation Wealth
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 pt-2">
+          <div class="bg-stone-800/90 border-2 border-stone-700 p-5 rounded-2xl space-y-2">
+            <div class="text-amber-400 font-extrabold text-lg">01. Forgotten Accounts</div>
+            <p class="text-xs text-stone-300 font-semibold leading-relaxed">Seniors open bank accounts, FDs, LIC policies, and EPFO savings over 40+ years without a central record.</p>
+          </div>
+          <div class="bg-stone-800/90 border-2 border-stone-700 p-5 rounded-2xl space-y-2">
+            <div class="text-amber-400 font-extrabold text-lg">02. Missing Nominees</div>
+            <p class="text-xs text-stone-300 font-semibold leading-relaxed">Over 50% of savings lack updated nominees, causing civil court succession certificate battles.</p>
+          </div>
+          <div class="bg-stone-800/90 border-2 border-stone-700 p-5 rounded-2xl space-y-2">
+            <div class="text-amber-400 font-extrabold text-lg">03. Complex Legal Claims</div>
+            <p class="text-xs text-stone-300 font-semibold leading-relaxed">Form 20, EPFO 10D/5IF bank claim notices require specialized legal wording that seniors can't afford.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide flex-col justify-center space-y-4 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/60 border border-emerald-500 text-emerald-300 text-xs font-extrabold">
+          THE SOLUTION
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">
+          Waaris Unified Asset & Recovery Protocol
+        </h2>
+        <div class="space-y-3 pt-2">
+          <div class="bg-stone-800/90 border border-emerald-500/50 p-4 rounded-2xl flex items-start gap-4">
+            <div class="h-8 w-8 rounded-xl bg-emerald-600 text-white font-bold flex items-center justify-center shrink-0">1</div>
+            <div>
+              <div class="font-extrabold text-emerald-300 text-sm">1-Tap RBI Account Aggregator Auto-Discovery</div>
+              <div class="text-xs text-stone-300 font-semibold">Auto-scans SBI, HDFC, ICICI, LIC, EPFO via primary mobile number verification (Jupiter/Fi style).</div>
+            </div>
+          </div>
+          <div class="bg-stone-800/90 border border-emerald-500/50 p-4 rounded-2xl flex items-start gap-4">
+            <div class="h-8 w-8 rounded-xl bg-emerald-600 text-white font-bold flex items-center justify-center shrink-0">2</div>
+            <div>
+              <div class="font-extrabold text-emerald-300 text-sm">MeitY DigiLocker Government Vault</div>
+              <div class="text-xs text-stone-300 font-semibold">Direct Govt of India document integration with green verified badges for policy bonds and UANs.</div>
+            </div>
+          </div>
+          <div class="bg-stone-800/90 border border-emerald-500/50 p-4 rounded-2xl flex items-start gap-4">
+            <div class="h-8 w-8 rounded-xl bg-emerald-600 text-white font-bold flex items-center justify-center shrink-0">3</div>
+            <div>
+              <div class="font-extrabold text-emerald-300 text-sm">On-Device WebGPU AI Claim Writer</div>
+              <div class="text-xs text-stone-300 font-semibold">Local LLM execution in browser generating legally binding bank claim notices with 0 cloud data leaks.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide flex-col justify-center space-y-4 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/60 border border-blue-500 text-blue-300 text-xs font-extrabold">
+          TECHNICAL ARCHITECTURE
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Client-Side Privacy Architecture</h2>
+        <div class="space-y-3 pt-2">
+          <div class="bg-stone-800 p-4 rounded-2xl border border-stone-700 flex justify-between items-center">
+            <span class="text-xs font-extrabold text-emerald-400">Frontend Layer</span>
+            <span class="text-xs font-mono bg-stone-900 px-3 py-1 rounded-lg text-stone-200">React 18 + Vite + Tailwind CSS</span>
+          </div>
+          <div class="bg-stone-800 p-4 rounded-2xl border border-stone-700 flex justify-between items-center">
+            <span class="text-xs font-extrabold text-amber-400">AI Execution Engine</span>
+            <span class="text-xs font-mono bg-stone-900 px-3 py-1 rounded-lg text-stone-200">Local WebGPU / Wasm LLMs</span>
+          </div>
+          <div class="bg-stone-800 p-4 rounded-2xl border border-stone-700 flex justify-between items-center">
+            <span class="text-xs font-extrabold text-blue-400">Data Isolation</span>
+            <span class="text-xs font-mono bg-stone-900 px-3 py-1 rounded-lg text-stone-200">Per-Phone Local Storage Encryption</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide flex-col justify-center space-y-4 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-amber-900/60 border border-amber-500 text-amber-300 text-xs font-extrabold">
+          JUDGE DEFENSE STRATEGY
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-white">Why Waaris is NOT an AI Wrapper</h2>
+        <div class="space-y-3 pt-2">
+          <div class="bg-stone-800/90 border border-amber-500/60 p-4 rounded-2xl space-y-1">
+            <div class="text-amber-300 font-extrabold text-xs">Q: "Is this just a wrapper around ChatGPT?"</div>
+            <div class="text-xs text-stone-200 font-semibold leading-relaxed">Defense: No. Waaris integrates real financial protocol logic: RBI Account Aggregator auto-discovery, MeitY DigiLocker verification, state persistence, and WebGPU local LLMs running 100% on device.</div>
+          </div>
+          <div class="bg-stone-800/90 border border-amber-500/60 p-4 rounded-2xl space-y-1">
+            <div class="text-amber-300 font-extrabold text-xs">Q: "How is senior security guaranteed?"</div>
+            <div class="text-xs text-stone-200 font-semibold leading-relaxed">Defense: Zero net banking passwords or PINs are requested. Data lives strictly inside local device memory tied to verified phone OTP session.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6 -->
+      <div class="slide flex-col justify-center items-center text-center space-y-6 h-full">
+        <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/60 border border-emerald-500 text-emerald-300 text-xs font-extrabold">
+          LIVE DEMO & REPOSITORY
+        </div>
+        <h2 class="text-4xl sm:text-5xl font-extrabold text-white">Waaris (वारिस) is Live</h2>
+        <div class="bg-stone-800 border-2 border-emerald-500 p-6 rounded-3xl max-w-xl w-full space-y-3">
+          <div class="text-xs font-extrabold text-emerald-400 uppercase">Live Web Application URL</div>
+          <div class="font-mono text-sm sm:text-base font-bold text-white bg-stone-900 p-3 rounded-xl border border-stone-700 break-all">
+            https://temporary-racing-perseus-tnptxr1.vercel.app
+          </div>
+          <div class="text-xs font-extrabold text-blue-400 uppercase pt-2">GitHub Repository</div>
+          <div class="font-mono text-xs sm:text-sm font-bold text-white bg-stone-900 p-2.5 rounded-xl border border-stone-700 break-all">
+            https://github.com/fahadpro01/waaris-heirloom-app
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Controls -->
+    <div class="flex items-center justify-between px-6 py-4 border-t border-stone-800 bg-stone-950">
+      <button id="prev-btn" class="px-5 py-2 rounded-xl bg-stone-800 text-xs font-extrabold text-stone-300 hover:bg-stone-700 transition">
+        ← Previous
+      </button>
+      <div class="text-xs text-stone-500 font-bold">Use Arrow Keys ← → to navigate</div>
+      <button id="next-btn" class="px-5 py-2 rounded-xl bg-emerald-600 text-xs font-extrabold text-white hover:bg-emerald-500 shadow transition">
+        Next →
+      </button>
+    </div>
+
+  </div>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+    const slideNum = document.getElementById('slide-num');
+    const prevBtn = document.getElementById('prev-btn');
+    const nextBtn = document.getElementById('next-btn');
+
+    function updateSlide(index) {
+      slides.forEach((s, i) => {
+        s.classList.toggle('active', i === index);
+      });
+      slideNum.textContent = `Slide ${index + 1} of ${slides.length}`;
+      prevBtn.disabled = index === 0;
+      nextBtn.disabled = index === slides.length - 1;
+      prevBtn.style.opacity = index === 0 ? '0.4' : '1';
+      nextBtn.style.opacity = index === slides.length - 1 ? '0.4' : '1';
+    }
+
+    prevBtn.addEventListener('click', () => {
+      if (currentSlide > 0) { currentSlide--; updateSlide(currentSlide); }
+    });
+
+    nextBtn.addEventListener('click', () => {
+      if (currentSlide < slides.length - 1) { currentSlide++; updateSlide(currentSlide); }
+    });
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowLeft' && currentSlide > 0) {
+        currentSlide--; updateSlide(currentSlide);
+      } else if (e.key === 'ArrowRight' && currentSlide < slides.length - 1) {
+        currentSlide++; updateSlide(currentSlide);
+      }
+    });
+
+    updateSlide(0);
+  </script>
+</body>
+</html>
