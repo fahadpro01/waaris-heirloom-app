@@ -14,7 +14,7 @@
 
 ## 🚀 Live Demo & Pitch Deck Presentation
 
-- 🌐 **Live Web Application**: [https://temporary-fleet-carbon-4mwqziz.vercel.app](https://temporary-fleet-carbon-4mwqziz.vercel.app)
+- 🌐 **Live Application (GitHub Pages)**: [https://fahadpro01.github.io/waaris-heirloom-app](https://fahadpro01.github.io/waaris-heirloom-app)
 - 📦 **GitHub Repository**: [https://github.com/fahadpro01/waaris-heirloom-app](https://github.com/fahadpro01/waaris-heirloom-app)
 
 ---
